@@ -1,0 +1,27 @@
+$border-radius: 5px;
+
+.number-input {
+  .number-input__label {
+    font-weight: bold;
+  }
+  .number-input__wrapper {
+    display: flex;
+
+    .number-input__input {
+      border-top-left-radius: $border-radius;
+      border-bottom-left-radius: $border-radius;
+      width: 100%;
+    }
+
+    .number-input__unit {
+      border-top: 2px solid black;
+      border-right: 2px solid black;
+      border-bottom: 2px solid black;
+      padding: 0 10px;
+      text-align: center;
+      background-color: aliceblue;
+      border-top-right-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
+    }
+  }
+}

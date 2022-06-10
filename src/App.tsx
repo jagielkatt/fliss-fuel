@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import { Calculator } from "./components/converter/Converter";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+    <div className="app">
+      <div className="content">
+        <div className="card">
+          <h1 className="card__header">
+            {" "}
+            &#128054; Fliss calculator &#128747;
+          </h1>
+          <Calculator />
+        </div>
+        <p className="disclaimer">
+          For educational purposes only. Do not use this website as your only
+          source of information.{" "}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
