@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.84c4b993.css",
-    "main.js": "/static/js/main.da9b2f2a.js",
-    "static/js/787.18db9258.chunk.js": "/static/js/787.18db9258.chunk.js",
-    "index.html": "/index.html",
-    "main.84c4b993.css.map": "/static/css/main.84c4b993.css.map",
-    "main.da9b2f2a.js.map": "/static/js/main.da9b2f2a.js.map",
-    "787.18db9258.chunk.js.map": "/static/js/787.18db9258.chunk.js.map"
+    "main.css": "/fliss-fuel/static/css/main.84c4b993.css",
+    "main.js": "/fliss-fuel/static/js/main.b4db905c.js",
+    "static/js/787.18db9258.chunk.js": "/fliss-fuel/static/js/787.18db9258.chunk.js",
+    "index.html": "/fliss-fuel/index.html",
+    "main.84c4b993.css.map": "/fliss-fuel/static/css/main.84c4b993.css.map",
+    "main.b4db905c.js.map": "/fliss-fuel/static/js/main.b4db905c.js.map",
+    "787.18db9258.chunk.js.map": "/fliss-fuel/static/js/787.18db9258.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84c4b993.css",
-    "static/js/main.da9b2f2a.js"
+    "static/js/main.b4db905c.js"
   ]
 }
